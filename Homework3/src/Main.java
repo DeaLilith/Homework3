@@ -84,14 +84,14 @@ public class Main {
 
         //Задача 6
 
-        int weightBanana = 80;
-        int bananaPortion = 5;
-        int portionMilk = 2;
-        int weightPortionMilk = 105;
-        int icecreamCount = 2;
-        int icecreamPortion = 100;
-        int eggsCount = 4;
-        int eggsPortion = 70;
+        byte weightBanana = 80;
+        byte bananaPortion = 5;
+        byte portionMilk = 2;
+        byte weightPortionMilk = 105;
+        byte icecreamCount = 2;
+        byte icecreamPortion = 100;
+        byte eggsCount = 4;
+        byte eggsPortion = 70;
 
         int totalBananasWeight = weightBanana * bananaPortion;
         int totalMilkWeight = portionMilk * weightPortionMilk;
@@ -99,17 +99,17 @@ public class Main {
         int totalEggsWeight = eggsCount * eggsPortion;
 
         int totalBreakfastWeightGram = totalBananasWeight + totalMilkWeight + totalIcecreamWeight + totalEggsWeight;
-        int totalBreakfastWeightKilograms = totalBreakfastWeightGram * 1000;
+        double totalBreakfastWeightKilograms = totalBreakfastWeightGram / 1000.0;
 
         System.out.println("Завтрак спортмена весил " + totalBreakfastWeightGram + " грамм.");
         System.out.println("Завтрак спортмена весил " + totalBreakfastWeightKilograms + " килограмм.");
 
         //Задача 7
 
-        int totalWeight = 7;
+        byte totalWeight = 7;
         int totalWeightGram = 7 * 1000;
-        int minKkalPerDay = 250;
-        int maxKkalPerDay = 500;
+        short minKkalPerDay = 250;
+        short maxKkalPerDay = 500;
 
         int dayInMinSpeed = totalWeightGram / minKkalPerDay;
         int dayInMaxSpeed = totalWeightGram / maxKkalPerDay;
