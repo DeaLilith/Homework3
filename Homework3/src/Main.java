@@ -6,47 +6,54 @@ public class Main {
         // to see how IntelliJ IDEA suggests fixing it.
         {
 
-        //Задача 1
+            //Задача 1
 
 
-        int a = 1003555267;
-        System.out.println("Значение переменной int с типом целочисленные равно " + a);
-        byte b = 100;
-        System.out.println("Значение переменной byte с типом целочисленные равно " + b);
-        short c = 28585;
-        System.out.println("Значение переменной short с типом целочисленные равно " + c);
-        long d = 2354589456851235985L;
-        System.out.println("Значение переменной long с типом целочисленные равно " + d);
-        float e = 2.75f;
-        System.out.println("Значение переменной float с типом целочисленные равно " + e);
-        double f = 1.6958495;
-        System.out.println("Значение переменной double с типом целочисленные равно " + f);
+            int a = 1003555267;
+            System.out.println("Значение переменной a с типом int равно " + a);
+            byte b = 100;
+            System.out.println("Значение переменной b с типом byte равно " + b);
+            short c = 28585;
+            System.out.println("Значение переменной c с типом short равно " + c);
+            long d = 2354589456851235985L;
+            System.out.println("Значение переменной d с типом long равно " + d);
+            float e = 2.75f;
+            System.out.println("Значение переменной e с типом float равно " + e);
+            double f = 1.6958495;
+            System.out.println("Значение переменной f с типом double равно " + f);
+
+
+        }
+
+
+        {
 
 
         //Задача 2
 
-        float e1 = 27.12f;
-        System.out.println("Значению " + e1 + " присвоен тип переменной float");
-        long d1 = 987678965549L;
-        System.out.println("Значению " + d1 + " присвоен тип переменной long");
-        float e2 = 2.786f;
-        System.out.println("Значению " + e2 + " присвоен тип переменной float");
-        short c1 = 569;
-        System.out.println("Значению " + c1 + " присвоен тип переменной short");
-        short c2 = -159;
-        System.out.println("Значению " + c2 + " присвоен тип переменной short");
-        short c3 = 27897;
-        System.out.println("Значению " + c3 + " присвоен тип переменной short");
-        byte b1 = 67;
-        System.out.println("Значению " + b1 + " присвоен тип переменной byte");
+        float a = 27.12f;
+        long b = 987678965549L;
+        float c = 2.786f;
+        short d = 569;
+        short e = -159;
+        short f = 27897;
+        byte g = 67;
+
+        System.out.println("Значению " + a + " присвоен тип переменной float");
+        System.out.println("Значению " + b + " присвоен тип переменной long");
+        System.out.println("Значению " + c + " присвоен тип переменной float");
+        System.out.println("Значению " + d + " присвоен тип переменной short");
+        System.out.println("Значению " + e + " присвоен тип переменной short");
+        System.out.println("Значению " + f + " присвоен тип переменной short");
+        System.out.println("Значению " + g + " присвоен тип переменной byte");
 
         //Задача 3
 
-        int ludmila = 23;
-        int anna = 27;
-        int ekaterina = 30;
+        int ludmilaStudents = 23;
+        int annaStudents = 27;
+        int ekaterinaStudents = 30;
         int totalSheets = 480;
-        int perStudent = totalSheets/(ludmila+anna+ekaterina);
+        int perStudent = totalSheets/(ludmilaStudents + annaStudents + ekaterinaStudents);
         System.out.println("На каждого ученика рассчитано " + perStudent + " листов бумаги");
 
         //Задача 4
@@ -57,19 +64,18 @@ public class Main {
 
         int minutes20 = 20;
         int buttlesPer20Minutes = buttlesPerMinutes * minutes20;
-        System.out.println("За 20 минут произведено " + buttlesPer20Minutes + " бутылок");
+        System.out.println("За 20 минут машина произвела " + buttlesPer20Minutes + " штук бутылок");
 
         int minutesInDay = 60 * 24;
         int buttlesInDay = minutesInDay * buttlesPerMinutes;
-        System.out.println("За 1 день произведено " + buttlesInDay + " бутылок");
+        System.out.println("За 1 день машина произвела " + buttlesInDay + " штук бутылок");
 
-        int minutesIn3Days = minutesInDay * 3;
-        int buttlesIn3Days = minutesIn3Days * buttlesPerMinutes;
-        System.out.println("За 3 дня произведено " + buttlesIn3Days + " бутылок");
+        int buttlesIn3Days = minutesInDay * buttlesPerMinutes;
+        System.out.println("За 3 дня машина произвела " + buttlesIn3Days + " штук бутылок");
 
-        int minutesInMonth = minutesIn3Days * 10;
+        int minutesInMonth = minutesInDay * 10;
         int buttlesInMonth = minutesInMonth * buttlesPerMinutes;
-        System.out.println("За 1 месяц произведено " + buttlesInMonth + " бутылок");
+        System.out.println("За месяц машина произвела " + buttlesInMonth + " штук бутылок");
 
         //Задача 5
 
@@ -84,14 +90,14 @@ public class Main {
 
         //Задача 6
 
-        int weightBanana = 80;
-        int bananaPortion = 5;
-        int portionMilk = 2;
-        int weightPortionMilk = 105;
-        int icecreamCount = 2;
-        int icecreamPortion = 100;
-        int eggsCount = 4;
-        int eggsPortion = 70;
+        byte weightBanana = 80;
+        byte bananaPortion = 5;
+        byte portionMilk = 2;
+        byte weightPortionMilk = 105;
+        byte icecreamCount = 2;
+        byte icecreamPortion = 100;
+        byte eggsCount = 4;
+        byte eggsPortion = 70;
 
         int totalBananasWeight = weightBanana * bananaPortion;
         int totalMilkWeight = portionMilk * weightPortionMilk;
@@ -99,17 +105,17 @@ public class Main {
         int totalEggsWeight = eggsCount * eggsPortion;
 
         int totalBreakfastWeightGram = totalBananasWeight + totalMilkWeight + totalIcecreamWeight + totalEggsWeight;
-        int totalBreakfastWeightKilograms = totalBreakfastWeightGram * 1000;
+        double totalBreakfastWeightKilograms = totalBreakfastWeightGram / 1000.0;
 
         System.out.println("Завтрак спортмена весил " + totalBreakfastWeightGram + " грамм.");
         System.out.println("Завтрак спортмена весил " + totalBreakfastWeightKilograms + " килограмм.");
 
         //Задача 7
 
-        int totalWeight = 7;
+        byte totalWeight = 7;
         int totalWeightGram = 7 * 1000;
-        int minKkalPerDay = 250;
-        int maxKkalPerDay = 500;
+        short minKkalPerDay = 250;
+        short maxKkalPerDay = 500;
 
         int dayInMinSpeed = totalWeightGram / minKkalPerDay;
         int dayInMaxSpeed = totalWeightGram / maxKkalPerDay;
@@ -137,9 +143,9 @@ public class Main {
         int denisYearDiff = salaryDenis * monthInYear;
         int kristinaYearDiff = salaryKristina * monthInYear;
 
-        System.out.println("Маша теперь получает " + newCurrentIncomeMasha + " рублей. Годовой доход вырос на " + salaryMasha + " рублей");
-        System.out.println("Денис теперь получает " + newCurrentIncomeDenis + " рублей. Годовой доход вырос на " + salaryDenis + " рублей");
-        System.out.println("Кристина теперь получает " + newCurrentIncomeKristina + " рублей. Годовой доход вырос на " + salaryKristina + " рублей");
+        System.out.println("Маша теперь получает " + newCurrentIncomeMasha + " рублей. Годовой доход вырос на " + mashaYearDiff + " рублей");
+        System.out.println("Денис теперь получает " + newCurrentIncomeDenis + " рублей. Годовой доход вырос на " + denisYearDiff + " рублей");
+        System.out.println("Кристина теперь получает " + newCurrentIncomeKristina + " рублей. Годовой доход вырос на " + kristinaYearDiff + " рублей");
 
         //TIP Press <shortcut actionId="Debug"/> to start debugging your code. We have set one <icon src="AllIcons.Debugger.Db_set_breakpoint"/> breakpoint
             // for you, but you can always add more by pressing <shortcut actionId="ToggleLineBreakpoint"/>.
