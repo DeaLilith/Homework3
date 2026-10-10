@@ -67,11 +67,12 @@ public class Main {
         System.out.println("Задание 9");
 
         int sum1 = 0;
+        int percent = 0;
 
         for (int month = 1; month <= 12; month++) {
             sum1 = sum1 + 29000;
-            sum1 = sum1 + sum1 / 100;
-            System.out.println("Месяц " + month + ", сумма накоплений равна " + sum1 + " рублей");
+            percent = percent + sum1 / 100;
+            System.out.println("Месяц " + month + ", сумма накоплений равна " + (sum1 + percent) + " рублей");
         }
 
         //Задание 10
