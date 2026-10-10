@@ -53,9 +53,10 @@ public class Main {
         for (int i = 1; i <= 512; i = i * 2) {
             System.out.println(i);
         }
+
         //Задание 8
         System.out.println("Задание 8");
-        int sum = 29000;
+        int sum = 0;
 
         for (int month = 1; month <= 12; month++) {
             sum = sum + 29000;
@@ -65,11 +66,11 @@ public class Main {
         //Задание 9
         System.out.println("Задание 9");
 
-        int sum1 = 29000;
+        int sum1 = 0;
 
         for (int month = 1; month <= 12; month++) {
             sum1 = sum1 + 29000;
-            sum1 = sum1 + sum1 * 1 / 100;
+            sum1 = sum1 + sum1 / 100;
             System.out.println("Месяц " + month + ", сумма накоплений равна " + sum1 + " рублей");
         }
 
