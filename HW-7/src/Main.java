@@ -61,7 +61,7 @@ public class Main {
         int daylyPay = 100;
         int daysCount1 = 0;
 
-        for (int day1 = 1; parkingPay >= daylyPay || day1 % 5 == 0; day1++) {
+        for (int day1 = 1; parkingPay >= daylyPay; day1++) {
             if (day1 % 5 == 0) {
                 daysCount1++;
                 continue;
@@ -86,6 +86,8 @@ public class Main {
             if (month % 6 == 0) {
                 total += total * interestRate / 100;
             }
+            System.out.println("Количество месяцев: " + month + ". Сумма накоплений: " + total + " руб.");
+
             if (total >= totalAmount) {
                 break;
             }
