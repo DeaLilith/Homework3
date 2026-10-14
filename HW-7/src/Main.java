@@ -37,12 +37,12 @@ public class Main {
 
         // Task 3
         System.out.println("Task 3");
-// Var 1
+//Var 1
         int parkingFee = 1800;
         int daylyFee = 100;
         int day = 1;
         int daysCount = 0;
-        while (parkingFee / daylyFee > 1 || day % 5 == 0) {
+        while (parkingFee >= daylyFee) {
             if (day % 5 == 0) {
                 daysCount++;
                 day++;
@@ -61,7 +61,7 @@ public class Main {
         int daylyPay = 100;
         int daysCount1 = 0;
 
-        for (int day1 = 1; parkingPay > daylyPay || day1 % 5 == 0; day1++) {
+        for (int day1 = 1; parkingPay >= daylyPay || day1 % 5 == 0; day1++) {
             if (day1 % 5 == 0) {
                 daysCount1++;
                 continue;
