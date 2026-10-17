@@ -24,16 +24,16 @@ public class Main {
         System.out.println("Task 2");
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(arr[i]);
+            System.out.print(arr[i]);
             if (i < arr.length - 1) {
-                System.out.println(", ");
+                System.out.print(", ");
             }
         }
 
         System.out.println();
 
         for (int i = 0; i < arr.length; i++) {
-            System.out.println(secondArray[i]);
+            System.out.print(secondArray[i]);
             if (i < secondArray.length - 1) {
                 System.out.print(", ");
             }
@@ -42,7 +42,7 @@ public class Main {
         System.out.println();
 
         for (int i = 0; i < customArray.length; i++) {
-            System.out.println(customArray[i]);
+            System.out.print(customArray[i]);
             if (i < customArray.length - 1) {
                 System.out.print(", ");
             }
