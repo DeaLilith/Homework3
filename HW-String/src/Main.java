@@ -15,10 +15,10 @@ public class Main {
         // Task 2
         System.out.println("Task 2");
 
-        String fullName2 = "Ivanov Ivan Ivanovich";
-        String fullName2Upper = fullName2.toUpperCase();
+        String fullName = "Ivanov Ivan Ivanovich";
+        String upperFullName = fullName.toUpperCase();
 
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName2Upper);
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + upperFullName);
 
         // Task 3
         System.out.println("Task 3");
