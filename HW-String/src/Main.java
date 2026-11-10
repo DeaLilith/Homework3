@@ -15,18 +15,18 @@ public class Main {
         // Task 2
         System.out.println("Task 2");
 
-        String fullName = "Ivanov Ivan Ivanovich";
-        fullName = fullName.toUpperCase();
+        String fullName2 = "Ivanov Ivan Ivanovich";
+        String fullName2Upper = fullName2.toUpperCase();
 
-        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName);
+        System.out.println("Данные Ф. И. О. сотрудника для заполнения отчета — " + fullName2Upper);
 
         // Task 3
         System.out.println("Task 3");
 
-        String fullName = "Иванов Семён Семёнович";
-        fullName = fullName.replace("ё", "е");
+        String fullName3WithYo = "Иванов Семён Семёнович";
+        String fullName3Fixed = fullName3WithYo.replace("ё", "е");
 
-        System.out.println("Данные Ф. И. О. сотрудника — " + fullName);
+        System.out.println("Данные Ф. И. О. сотрудника — " + fullName3Fixed);
         }
     }
 }
